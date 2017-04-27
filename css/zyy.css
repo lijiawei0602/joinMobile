@@ -1,0 +1,142 @@
+@media screen and (min-width: 0px) {
+	.login{
+		background-image: url('../img/login-bg1.png');
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.login{
+		background-image: url('../img/background4.jpg');
+		background-size: 200% 100%;
+		background-position: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.login{
+		background-image: url('../img/background4.jpg');
+	}
+
+	#login-btn{
+		width: 18%;
+		height: 1.8rem;
+		margin-right: 3rem;
+	}
+
+	#login-btn>p{
+		height: 1.8rem;
+		line-height: 1.8rem;
+	}
+
+	.login-li{
+		width: 50%;
+		height: 1.8rem;
+		margin-left: 25%;
+	}
+
+	.check{
+		background-image: url('../img/background4.jpg');
+	}
+
+	.check-li{
+  		width: 40%;
+  		margin-left: 30%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.login{
+		background-image: url('../img/background3.jpg');
+	}
+
+	#login-btn{
+		width: 20%;
+		height: 2rem;
+		margin-right: 3rem;
+	}
+
+	#login-btn>p{
+		height: 2rem;
+		line-height: 2rem;
+	}
+
+	.login-li{
+		width: 40%;
+		height: 1.8rem;
+		margin-left: 30%;
+	}
+
+	.check{
+		background-image: url('../img/background3.jpg');
+	}
+
+	.check-li{
+  		width: 40%;
+  		margin-left: 30%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.login{
+		background-image: url('../img/background2.jpg');
+	}
+
+	#login-btn{
+		width: 20%;
+		height: 2rem;
+		margin-right: 3rem;
+	}
+
+	#login-btn>p{
+		height: 2rem;
+		line-height: 2rem;
+	}
+
+	.login-li{
+		width: 40%;
+		height: 1.8rem;
+		margin-left: 30%;
+	}
+
+	.check{
+		background-image: url('../img/background2.jpg');
+	}
+
+	.check-li{
+  		width: 40%;
+  		margin-left: 30%;
+	}
+}
+
+
+@media screen and (min-width: 1536px) {
+	.login{
+		background-image: url('../img/background1.jpg');
+	}
+
+	#login-btn{
+		width: 20%;
+		height: 2rem;
+		margin-right: 3rem;
+	}
+
+	#login-btn>p{
+		height: 2rem;
+		line-height: 2rem;
+	}
+
+	.login-li{
+		width: 40%;
+		height: 1.9rem;
+		margin-left: 30%;
+	}
+
+	.check{
+		background-image: url('../img/background1.jpg');
+	}
+
+	.check-li{
+  		width: 40%;
+  		margin-left: 30%;
+	}
+}

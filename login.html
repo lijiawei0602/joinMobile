@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <title>Join us</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://yun.xiyoumobile.com/src/images/favicon.ico">
+  <link href="//cdn.bootcss.com/meyer-reset/2.0/reset.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/zyy.css">
+</head>
+<body>
+  
+    <div class="swiper-container">
+      <img class="home" id="quit" src="./img/home-pe.png" alt="">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide login" id="login">
+
+          <!-- 报名按钮 -->
+          <div id="login-btn">
+            <p>投简历</p>
+          </div>
+
+          <div class="login-form">
+            <!-- 姓名 -->
+            <div class="login-li">
+              <div class="login-li-head set-li0">
+                <p>姓名</p>
+              </div>
+              <div class="login-li-input">
+                <input id="name" class="set-active" type="text" placeholder="姓名">
+              </div>
+            </div>
+
+            <!-- 学号 -->
+            <div class="login-li">
+              <div class="login-li-head set-li1">
+                <p>学号</p>
+              </div>
+              <div class="login-li-input">
+                <input id="num" class="set-active" type="text" placeholder="学号" disabled="disabled">
+              </div>
+            </div>
+
+            <!-- 电话 -->
+            <div class="login-li">
+              <div class="login-li-head set-li2">
+                <p>电话</p>
+              </div>
+              <div class="login-li-input">
+                <input id="tel" class="set-active" type="text" placeholder="电话">
+              </div>
+            </div>
+
+            <!-- 邮箱 -->
+            <div class="login-li">
+              <div class="login-li-head set-li3">
+                <p>邮箱</p>
+              </div>
+              <div class="login-li-input">
+                <input id="mail" class="set-active" type="text" placeholder="邮箱">
+              </div>
+            </div>
+
+            <!-- 方向 -->
+            <div class="login-li">
+              <div class="login-li-head set-li4">
+                <p>方向</p>
+              </div>
+              <div class="login-li-input">
+                <select id="group">
+                  <!-- <option value="Web">Web</option>
+                  <option value="Android">Android</option>
+                  <option value="iOS">iOS</option> -->
+                </select>
+              </div>
+            </div>
+
+            <!-- 自述 -->
+            <div class="login-li">
+              <div class="login-li-head set-li5">
+                <p>自述</p>
+              </div>
+              <div class="login-li-input">
+                <textarea id="message" class="set-active" rows="5" placeholder="简单介绍一下自己哦"></textarea>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide check">
+
+          <div class="check-form">
+        
+            <div class="check-li">
+              <div class="check-li-head head-message">
+                <p>通知</p>
+              </div>
+              <div class="check-li-input">
+                <textarea class="set-active" rows="8" disabled="disabled" id="iMessage"></textarea>
+              </div>
+            </div>
+
+            <div class="check-li" id="check-download">
+              <div class="check-li-head head-down">
+                <p>通知</p>
+              </div>
+              <div class="check-li-input">
+                <div class="set-active" rows="5">
+                  <a href="./assess/纳新网站接口.md">
+                    <p>笔试题目下载</p>
+                    <img src="./img/down.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+
+        </div>
+      </div>
+    
+    </div>
+
+
+  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>
